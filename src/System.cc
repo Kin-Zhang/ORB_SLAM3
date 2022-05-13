@@ -657,6 +657,7 @@ void System::SaveKeyFrameTrajectoryTUM(const string &filename)
     }
 
     f.close();
+    cout << endl << "Finish saving !!! " << filename << " ..." << endl;
 }
 
 void System::SaveTrajectoryEuRoC(const string &filename)
